@@ -1,0 +1,23 @@
+.skystar {
+  position: absolute;
+  color: var(--pale-light);
+  text-shadow: none;
+  animation: sparkle;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sparkle {
+  0% {
+    color: var(--glow-dark);
+    text-shadow: var(--glow-dark) 0 0 20px;
+  }
+
+  50% {
+    color: var(--pale-light);
+  }
+  100% {
+    color: var(--background-color);
+    text-shadow: none;
+  }
+}

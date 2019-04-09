@@ -1,0 +1,17 @@
+@import url("./star.css");
+
+:root {
+  --background: hsl(260, 23%, 7%);
+  --glow-dark: hsl(154, 99%, 55%);
+  --pale-light: hsl(164, 67%, 70%);
+}
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+  background-color: var(--background);
+}
