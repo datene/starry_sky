@@ -16,7 +16,7 @@
     color: var(--pale-light);
   }
   100% {
-    color: var(--background-color);
+    color: var(--background);
     text-shadow: none;
   }
 }
